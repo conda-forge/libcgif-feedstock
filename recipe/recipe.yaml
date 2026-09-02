@@ -1,5 +1,5 @@
 context:
-  version: "0.5.3"
+  version: "0.5.4"
 
 package:
   name: libcgif
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/dloebl/cgif/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: dcc7731e974ee77db75df26c99aca4d95f11ca2d267d870d42bce1e0d1e1e75f
+  sha256: 83a70a15bc2da41f081a44ebc58ee48e2e1d524a6d3fdb4a24064afa08d5ad4d
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
